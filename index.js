@@ -83,15 +83,15 @@ const VIDEOS = [
 ]
 
 const FILE_DOWNLOADS = [
-  'cat-blue-eyes.jpg',
-  'cat-ceiling.jpg',
-  'cat-crosseyes.jpg',
-  'cat-cute.jpg',
-  'cat-hover.jpg',
-  'cat-marshmellows.jpg',
-  'cat-small-face.jpg',
-  'cat-smirk.jpg',
-  'patreon.png'
+  'silly-face.jpg',
+  'silly-face.jpg',
+  'silly-face.jpg',
+  'silly-face.jpg',
+  'silly-face.jpg',
+  'silly-face.jpg',
+  'silly-face.jpg',
+  'silly-face.jpg',
+  'silly-face.jpg'
 ]
 
 const PHRASES = [
