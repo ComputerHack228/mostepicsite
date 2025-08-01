@@ -1,22 +1,9 @@
-<!doctype html>
-
-<!--
-  The Annoying Site
-  https://theannoyingsite.com
-
-  Author:
-    Feross Aboukhadijeh
-    https://feross.org
-
-  Patreon:
-    If you enjoyed this, please support me on Patreon!
-    https://www.patreon.com/feross
--->
-
+<!DOCTYPE html>
 <html>
 <head>
-  <meta charset='UTF-8'>
-  <meta name='theme-color' content='#fff' class='theme-color'/>
+  <meta charset="UTF-8">
+  <meta name="theme-color" content="#fff" class="theme-color" />
+  <title>The Annoying Site</title>
   <style>
     html, body {
       width: 100%;
@@ -42,20 +29,13 @@
     }
     img {
       width: 300px;
+      cursor: pointer;
     }
     @keyframes blurslowly {
-      0% {
-        filter: none;
-      }
-      92% {
-        filter: blur(0);
-      }
-      96% {
-        filter: blur(1px);
-      }
-      100% {
-        filter: blur(0);
-      }
+      0% { filter: none; }
+      92% { filter: blur(0); }
+      96% { filter: blur(1px); }
+      100% { filter: blur(0); }
     }
     body {
       animation-name: blurslowly;
@@ -67,26 +47,13 @@
 </head>
 <body>
 
-<template>
-  <div class='hello-message'>
+  <div class="hello-message">
     <h1>click to start epicness</h1>
-
-    <img src="silly-face.jpg" alt="Silly face" />
+    <img id="start-image" src="silly-face.jpg" alt="Silly face" />
   </div>
-  <div class='logout-messages'></div>
-</template>
 
-<script src='/index.js'></script>
+  <div class="logout-messages"></div>
 
-<script async src='https://www.googletagmanager.com/gtag/js?id=UA-3898076-24'></script>
-<script>
-  window.dataLayer = window.dataLayer || []
-  function gtag () {
-    window.dataLayer.push(arguments)
-  }
-  gtag('js', new Date())
-  gtag('config', 'UA-3898076-24')
-</script>
-
+  <script src="/index.js"></script>
 </body>
 </html>
